@@ -1,4 +1,5 @@
-FROM python:2.7
+#FROM python:2.7
+FROM hub.c.163.com/nce2/python:2.7
 ENV PYTHONUNBUFFERED 1
 RUN mkdir /code
 WORKDIR /code
